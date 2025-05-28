@@ -22,8 +22,13 @@ const Navbar = () => {
         ))}
       </ul>
 
-      <div className="lg:flex items-center justify-center hidden">
-        <Button type="button" title="login" icon="/user.svg" />
+      <div className="lg:flex lg:items-center lg:justify-center hidden">
+        <Button
+          type="button"
+          title="login"
+          icon="/user.svg"
+          variant="border bg-gray-800 px-8 py-4 text-white transition-all hover:bg-black"
+        />
       </div>
 
       <Image
