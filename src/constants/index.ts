@@ -27,7 +27,7 @@ export const FEATURES = [
   {
     title: "Set an adventure schedule",
     icon: "/calendar.svg",
-    variant: "green",
+    variant: "orange",
     description:
       "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
   },
